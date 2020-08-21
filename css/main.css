@@ -1,0 +1,23 @@
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+input, label {
+    width: 100%;
+    display: block;
+}
+input {
+    box-sizing: border-box;
+    margin: 0 0 1em 0;
+    line-height: 2em;
+    border: 1px solid black;
+    /* padding: 8px; */
+}
+input[type="submit"] {
+    background: #0e2461;
+    color: #fff;
+}
+input[type="submit"]:hover {
+    background: #b1c3f3;
+    color: #000;
+}
