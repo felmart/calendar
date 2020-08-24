@@ -1,4 +1,7 @@
 <?php declare(strict_types=1);
+/**
+ * This file contains various functions to sanitize, validate or manipulate strings
+ */
 function SplitNames($names) {
     $names = explode(" ", $names);
     return $names;
