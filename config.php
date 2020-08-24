@@ -30,4 +30,4 @@ try {
 // Check connection
 if($link === false){
     die("ERROR: Could not connect. ");
-?>
+}
